@@ -1,0 +1,22 @@
+.home {
+  background-color: rgba(255, 0, 0, 0.7);
+}
+
+.projects {
+  background-color: rgba(72, 140, 163, 0.7);
+}
+
+.about {
+  background-color: rgba(111, 196, 82, 0.7);
+  display: none;
+}
+
+.resume {
+  background-color: rgba(201, 93, 16, 0.7);
+  display: none;
+}
+
+.contact {
+  background-color: rgba(242, 242, 61, 0.7);
+  display: none;
+}
