@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Nick Jacoby</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/module.css">
+    <link rel="stylesheet" href="styles/state.css">
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <header class="header">
+        This is the header
+      </header>
+      <main>
+        This is the main
+        <section class="home">
+          Home Page
+        </section>
+        <section class="projects">
+          Projects Page
+        </section>
+        <section class="about">
+          About Page
+        </section>
+        <section class="resume">
+          E-resume Page
+        </section>
+        <section class="contact">
+          Contact Page
+        </section>
+      </main>
+    </div>
+    <footer>
+      This is the footer
+    </footer>
+
+    <!-- Vendor -->
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+
+    <!-- Model -->
+    <script src="scripts/models/aboutModel.js"></script>
+    <script src="scripts/models/contactModel.js"></script>
+    <script src="scripts/models/homeModel.js"></script>
+    <script src="scripts/models/projectsModel.js"></script>
+    <script src="scripts/models/resumeModel.js"></script>
+
+    <!-- View -->
+    <script src="scripts/views/aboutView.js"></script>
+    <script src="scripts/views/contactView.js"></script>
+    <script src="scripts/views/homeView.js"></script>
+    <script src="scripts/views/projectsView.js"></script>
+    <script src="scripts/views/resumeView.js"></script>
+
+    <!-- Controller -->
+    <script src="scripts/controllers/aboutController.js"></script>
+    <script src="scripts/controllers/contactController.js"></script>
+    <script src="scripts/controllers/homeController.js"></script>
+    <script src="scripts/controllers/projectsController.js"></script>
+    <script src="scripts/controllers/resumeController.js"></script>
+
+    <script src="scripts/routes.js"></script>
+  </body>
+</html>
