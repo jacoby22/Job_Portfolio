@@ -1,22 +1,42 @@
+.main-content {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  min-width: 10em;
+  margin-left: -8em;
+  background-color: rgba(224, 214, 74, 0.7);
+  max-height: 20em;
+  min-height: 20em;
+  position: fixed;
+}
+
 .home {
-  background-color: rgba(255, 0, 0, 0.7);
+  min-width: 100%;
+  /*padding-left: 8em;*/
 }
 
 .projects {
-  background-color: rgba(72, 140, 163, 0.7);
+  display: none;
+  min-width: 100%;
+  /*padding-left: 8em;*/
 }
 
 .about {
-  background-color: rgba(111, 196, 82, 0.7);
   display: none;
+  min-width: 100%;
+  /*padding-left: 8em;*/
 }
 
 .resume {
-  background-color: rgba(201, 93, 16, 0.7);
   display: none;
+  min-width: 100%;
+  /*padding-left: 8em;*/
 }
 
 .contact {
-  background-color: rgba(242, 242, 61, 0.7);
   display: none;
+  min-width: 100%;
+  /*padding-left: 8em;*/
 }

@@ -6,36 +6,34 @@
 html, body {
   height: 100%;
   margin: 0;
-}
-
-.main-wrapper {
-  min-height: 100%;
+  color: white;
 }
 
 header {
   height: 4em;
   display: flex;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: black;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.main-wrapper {
+  min-height: 100%;
+  background-color: rgba(84, 35, 148, 0.9);
+  padding-bottom: 4em;
 }
 
 main {
-  background-color: white;
-  height: 100%;
   overflow: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding-bottom: 4em;
 }
 
 footer {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: black;
   position: relative;
   margin-top: -4em;
   height: 4em;
   clear: both;
+  background-color: rgba(0, 0, 0, 1);
 }
 
 section {
