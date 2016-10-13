@@ -12,12 +12,12 @@ html, body {
 header {
   height: 4em;
   display: flex;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(80, 80, 80, 0.7);
 }
 
 .main-wrapper {
   min-height: 100%;
-  background-color: rgba(84, 35, 148, 0.9);
+  background-color: rgba(48, 27, 92, 1);
   padding-bottom: 4em;
 }
 
@@ -33,7 +33,7 @@ footer {
   margin-top: -4em;
   height: 4em;
   clear: both;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(80, 80, 80, 0.7);
 }
 
 section {
@@ -41,4 +41,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+li {
+  list-style: none;
 }
