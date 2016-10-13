@@ -17,20 +17,29 @@
       <main>
         This is the main
         <div class="main-content">
-          <nav class="navigation">Navigation</nav>
-          <section class="home">
+          <nav class="navigation">
+            Navigation
+            <ul class="tabs">
+              <li class="tab" data-content="homeContent">Home</li>
+              <li class="tab" data-content="projectsContent">Projects</li>
+              <li class="tab" data-content="aboutContent">About</li>
+              <li class="tab" data-content="resumeContent">Resume</li>
+              <li class="tab" data-content="contactContent">Contact</li>
+            </ul>
+          </nav>
+          <section class="home tab-content" id="homeContent">
             Home Page
           </section>
-          <section class="projects">
+          <section class="projects tab-content" id="projectsContent">
             Projects Page
           </section>
-          <section class="about">
+          <section class="about tab-content" id="aboutContent">
             About Page
           </section>
-          <section class="resume">
+          <section class="resume tab-content" id="resumeContent">
             E-resume Page
           </section>
-          <section class="contact">
+          <section class="contact tab-content" id="contactContent">
             Contact Page
           </section>
         </div>
